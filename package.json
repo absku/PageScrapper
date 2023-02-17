@@ -1,0 +1,33 @@
+{
+  "name": "pagescrapper",
+  "author": {
+    "name": "Marcos Pedaci",
+    "url": "https://www.linkedin.com/in/marcos-pedaci/"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [
+    "scrapper",
+    "puppeteer",
+    "nodejs"
+  ],
+  "description": "Simple page scrapper based on poppeter",
+  "homepage": "https://github.com/absku/PageScrapper",
+  "repository": "https://github.com/absku/PageScrapper",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "cors": "^2.8.5",
+    "puppeteer": "^17.1.3",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-adblocker": "^2.13.5",
+    "puppeteer-extra-plugin-stealth": "^2.11.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  }
+}
